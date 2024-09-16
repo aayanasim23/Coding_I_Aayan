@@ -1,0 +1,16 @@
+print ("My name is Aayan ")
+print ("My favorite food is Pizza")
+print ("I plan on becoming a pilot")
+print ("I am 15 years old")
+print ("I am in 10th grade")
+
+print ("A")
+print ("A")
+print ("Y")
+print ("A")
+print ("N")
+
+print ("****")
+print ("*  *")
+print ("*  *")
+print ("****")
