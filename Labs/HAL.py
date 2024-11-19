@@ -13,4 +13,4 @@ while True:
         print("HAL-9")
         break
     else:
-        print("I’m sorry " + name + ", I’m afraid I can’t do that.")
+        print("I'm sorry " + name + ", I'm afraid I can't do that.")
