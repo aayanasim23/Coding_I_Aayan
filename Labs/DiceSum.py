@@ -1,8 +1,8 @@
+import random
 total_sum = 0
 while total_sum <50:
-    total_sum = total_sum + random
+    total_sum = total_sum + random.randint(1,6)
 
-import random
 
 random.randint(1,6)
 
