@@ -1,11 +1,3 @@
-print("My name is HAL-9, I am your personal Chatbot.")
-
-name = input("What's your name? ")
-
-print("Nice to meet you, " + name)
-
-print("Let's create a story about your Winter Break!")
-
 activity1 = input("Did you go skiing or stay at home during your Winter Break? (Enter 'skiing' or 'home'): ")
 if activity1 == "skiing":
     activity2 = input("Did you visit family or travel to a new place? (Enter 'family' or 'travel'): ")
