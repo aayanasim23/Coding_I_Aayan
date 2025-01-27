@@ -2,11 +2,10 @@ string = "The new Boeing 777X will be the world’s largest and most efficient t
 
 def word_counter(string):
     count = 0
-    for word in string.split():
+    for _ in range(len(string.split())):
         count += 1
     return count
 
-word_counter(string)
 
 def letter_count(string, character):
     count = 0
@@ -14,3 +13,24 @@ def letter_count(string, character):
         if char == character:
             count += 1
     return count
+
+def count_capital_letters(string):
+  count = 0
+  for char in string:
+    if char.isupper():
+      count += 1
+  return count
+
+def most_common_word(string):
+    words = string.split()
+    word_count = {}
+    for word in words:
+        word_count[word] = word_count.get(word, 0) + 1
+    most_common = max(word_count, key=word_count.get)
+    return most_common
+
+
+print("Word count:", word_counter(string))
+print("Letter count:", letter_count(string, 'b'))
+print("Capital letter count:", count_capital_letters(string))
+print("Most common word:", most_common_word(string))
