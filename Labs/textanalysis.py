@@ -31,6 +31,6 @@ def most_common_word(string):
 
 
 print("Word count:", word_counter(string))
-print("Letter count:", letter_count(string, 'b'))
+print("Letter count(b):", letter_count(string, 'b'))
 print("Capital letter count:", count_capital_letters(string))
 print("Most common word:", most_common_word(string))
