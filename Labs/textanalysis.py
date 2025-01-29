@@ -2,7 +2,7 @@ string = "The new Boeing 777X will be the world’s largest and most efficient t
 
 def word_counter(string):
     count = 0
-    for _ in range(len(string.split())):
+    for i in range(len(string.split())):
         count += 1
     return count
 
