@@ -11,4 +11,3 @@ upcoming = ["Friday, Resting from school", "Saturday, Playing Flight Simulator l
 upcoming[1]
 upcoming[2] = "Studying"
 print(upcoming)
-#NOT FINISHED YET
