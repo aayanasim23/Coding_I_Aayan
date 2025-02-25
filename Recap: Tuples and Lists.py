@@ -5,4 +5,10 @@ Feb_break[1]
 weekends = Feb_break[:3] + Feb_break[8:10]
 print(weekends)
 
+
+upcoming = ["Friday, Resting from school", "Saturday, Playing Flight Simulator learning the A350", "Sunday, Playing more flight simulator"]
+
+upcoming[1]
+upcoming[2] = "Studying"
+print(upcoming)
 #NOT FINISHED YET
