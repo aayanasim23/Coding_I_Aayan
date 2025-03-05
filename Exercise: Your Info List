@@ -3,9 +3,16 @@ my_info.append("Aayan")
 my_info.append(15)
 my_info.append(10)
 my_info.append("Precalculus")
-my_info.append("Big Hero 6")
-my_info.append("Coco")
-my_info.append("Despicable Me")
+my_info.append(["Coco", "Big Hero 6", "Despicable Me"])
+
 
 for i in my_info:
     print(i)
+
+
+movies = my_info.pop(4)
+
+
+movies.sort()
+for movie in movies:
+    print(movie)
