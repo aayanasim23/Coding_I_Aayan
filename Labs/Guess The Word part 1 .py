@@ -10,4 +10,4 @@ def get_guess():
 
 get_guess()
 
-# PART 1 ALMOST FINISHED
+# PART 1 ALMOST F
