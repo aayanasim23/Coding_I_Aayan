@@ -1,11 +1,11 @@
 secret_word = "skull"
 
 def get_guess():
-    guess = input("Guess a word: ")
+    guess = input("Guess a letter: ")
 
     while not (len(guess) == 1 and guess.islower()):
         print("Try Again!")
-        guess = input("Guess a word: ")
+        guess = input("Guess a letter: ")
     if guess in secret_word:
         return guess
 
@@ -20,7 +20,7 @@ def play_game():
             print("Congrats! You guessed the word!")
             return
 
-        print(f"Wrong guess. {attempts - 1} attempts left.")
+        print("Wrong guess. Attempts left:" , attempts - 1)
         attempts -= 1
 
     print("Game Over! The secret word was:", secret_word)
