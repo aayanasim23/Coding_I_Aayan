@@ -6,9 +6,8 @@ def get_guess():
     while not (len(guess) == 1 and guess.islower()):
         print("Try Again!")
         guess = input("Guess a letter: ")
+    return(guess)
 
-    if guess in secret_word:
-        return guess
 
 print("You guessed:", get_guess())
 
