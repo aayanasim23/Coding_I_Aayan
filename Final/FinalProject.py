@@ -1,2 +1,47 @@
 import turtle
 
+rightwing = 0
+while rightwing < 2:
+    turtle.forward(250)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    rightwing = rightwing+ 1
+
+turtle.right(100)
+turtle.forward(160)
+turtle.left(95)
+turtle.forward(80)
+turtle.right(85)
+turtle.forward(35)
+turtle.right(85)
+turtle.forward(95)
+turtle.left(135)
+turtle.forward(20)
+turtle.backward(20)
+turtle.right(135)
+turtle.left(85)
+turtle.forward(15)
+turtle.backward(15)
+turtle.right(85)
+turtle.left(45)
+turtle.forward(20)
+turtle.backward(20)
+turtle.right(45)
+turtle.right(10)
+turtle.forward(95)
+turtle.right(85)
+turtle.forward(35)
+turtle.right(85)
+turtle.forward(80)
+turtle.left(95)
+turtle.forward(160)
+turtle.left(80)
+
+leftwing = 0
+while leftwing < 2:
+    turtle.forward(250)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    leftwing = leftwing+ 1
