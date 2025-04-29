@@ -49,7 +49,11 @@ while leftwing < 2:
 
 turtle.right(90)
 turtle.forward(200)
+
+#powerplant starts here
 turtle.right(85)
+
+
 turtle.forward(42.5)
 turtle.left(85)
 turtle.forward(10)
