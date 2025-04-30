@@ -1,5 +1,9 @@
 import turtle
 
+screen = turtle.Screen()
+screen.bgcolor("#89CFF0")
+
+
 rightwing = 0
 while rightwing < 2:
     turtle.forward(250)
@@ -55,27 +59,45 @@ turtle.right(85)
 
 
 turtle.forward(42.5)
+#angle of start of engine
+
 turtle.left(85)
 turtle.forward(10)
 turtle.left(90)
 turtle.forward(70)
+#prop
+
 turtle.right(90)
 turtle.forward(8)
 turtle.right(90)
 turtle.forward(70)
+#right turn to prop then spinner
+
+
 turtle.left(70)
+#first left
 turtle.forward(15)
+#prop height 15
 turtle.right(140)
+#prop turn right to make tip
 turtle.forward(15)
+#forward by 15
 turtle.left(70)
+#back to being center
 turtle.forward(70)
+
 turtle.right(90)
-turtle.forward(10)
+turtle.forward(8)
 turtle.right(90)
+
 turtle.forward(70)
+#prop ends gonna turn left from here
 turtle.left(90)
 turtle.forward(10)
 turtle.left(85)
-turtle.forward(42.5)
+turtle.forward(33)
 turtle.right(85)
 turtle.forward(200)
+#BACK TO MIDDLE STARTING FLAPS AND ALIERON
+
+
