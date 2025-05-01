@@ -54,14 +54,14 @@ while leftwing < 2:
 
 turtle.right(90)
 turtle.pensize(3)
-
+turtle.begin_fill()
 for i in range(2):
     turtle.forward(30)
     turtle.left(90)
     turtle.forward(130)
     turtle.left(90)
     #flapL = flapL + 1
-
+turtle.end_fill()
 turtle.pensize(1)
 
 turtle.left(90)
@@ -95,8 +95,10 @@ turtle.forward(10)
 turtle.left(5)
 turtle.forward(140)
 turtle.left(90)
-
-turtle.forward(200)
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.forward(100)
 
 #powerplant starts here
 turtle.right(85)
@@ -147,7 +149,7 @@ turtle.left(90)
 
 turtle.left(90)
 turtle.pensize(3)
-
+turtle.begin_fill()
 #flapr = 0
 for i in range(2):
     turtle.forward(30)
@@ -155,6 +157,7 @@ for i in range(2):
     turtle.forward(130)
     turtle.right(90)
     #flapr = flapr + 1
+turtle.end_fill()
 
 turtle.pensize(1)
 
@@ -187,4 +190,24 @@ turtle.left(95)
 turtle.forward(10)
 turtle.right(5)
 turtle.forward(140)
+
+for i in range(2):
+    turtle.forward(30)
+    turtle.right(90)
+    turtle.forward(50)
+    turtle.right(90)
 turtle.right(90)
+turtle.forward(101)
+turtle.left(90)
+turtle.forward(85)
+
+turtle.left(90)
+
+turtle.forward(101)
+
+turtle.left(90)
+for i in range(2):
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
