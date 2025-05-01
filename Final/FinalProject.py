@@ -15,10 +15,21 @@ while rightwing < 2:
 
 turtle.right(100)
 turtle.forward(160)
+#horrizontal stabilzer
 turtle.left(95)
 turtle.forward(80)
 turtle.right(85)
-turtle.forward(35)
+#elevator
+for i in range(1):
+    turtle.forward(17.5)
+    turtle.right(90)
+    turtle.pensize(3)
+    turtle.forward(190)
+    turtle.backward(190)
+    turtle.left(90)
+    turtle.pensize(1)
+    turtle.forward(17.5)
+
 turtle.right(85)
 turtle.forward(95)
 turtle.left(135)
