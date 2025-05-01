@@ -1,4 +1,5 @@
 import turtle
+turtle.speed(0)
 
 screen = turtle.Screen()
 screen.bgcolor("#89CFF0")
@@ -6,7 +7,7 @@ screen.bgcolor("#89CFF0")
 
 rightwing = 0
 while rightwing < 2:
-    turtle.forward(250)
+    turtle.forward(140)
     turtle.left(90)
     turtle.forward(100)
     turtle.left(90)
@@ -44,14 +45,26 @@ turtle.left(80)
 
 leftwing = 0
 while leftwing < 2:
-    turtle.forward(250)
+    turtle.forward(140)
     turtle.right(90)
     turtle.forward(100)
     turtle.right(90)
     leftwing = leftwing+ 1
 
-
 turtle.right(90)
+turtle.forward(5)
+turtle.pensize(3)
+
+for i in range(2):
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(130)
+    turtle.left(90)
+    #flapL = flapL + 1
+    
+
+turtle.pensize(1)
+
 turtle.forward(200)
 
 #powerplant starts here
@@ -99,5 +112,42 @@ turtle.forward(33)
 turtle.right(85)
 turtle.forward(200)
 #BACK TO MIDDLE STARTING FLAPS AND ALIERON
+turtle.left(90)
+turtle.forward(5)
+turtle.left(90)
+turtle.pensize(3)
+
+#flapr = 0
+for i in range(2):
+    turtle.forward(30)
+    turtle.right(90)
+    turtle.forward(130)
+    turtle.right(90)
+    #flapr = flapr + 1
+
+turtle.pensize(1)
+
+turtle.right(90)
+turtle.forward(150)
+for i in range(1):
+    turtle.left(5)
+    turtle.forward(160)
+    turtle.left(85)
+    turtle.forward(85)
+    turtle.left(90)
+    turtle.forward(174)
+    turtle.left(90)
+    turtle.forward(100)
 
 
+turtle.left(95)
+turtle.forward(10)
+turtle.left(85)
+#alieronR
+turtle.pensize(3)
+for i in range(2):
+    turtle.forward(30)
+    turtle.right(85)
+    turtle.forward(155)
+    turtle.right(95)
+    
