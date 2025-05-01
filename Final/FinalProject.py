@@ -219,12 +219,13 @@ turtle.left(95)
 turtle.forward(10)
 turtle.right(5)
 turtle.forward(140)
-
+turtle.color("white")
 for i in range(2):
     turtle.forward(30)
     turtle.right(90)
     turtle.forward(50)
     turtle.right(90)
+turtle.color("black")
 turtle.right(90)
 turtle.forward(101)
 turtle.left(90)
@@ -233,7 +234,7 @@ turtle.forward(85)
 turtle.left(90)
 
 turtle.forward(101)
-
+turtle.color("white")
 turtle.left(90)
 for i in range(2):
     turtle.forward(30)
