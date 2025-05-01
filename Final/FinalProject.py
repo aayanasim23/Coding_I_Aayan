@@ -29,16 +29,34 @@ for i in range(1):
     turtle.left(90)
     turtle.pensize(1)
     turtle.forward(17.5)
-
+#VOR
 turtle.right(85)
 turtle.forward(95)
 turtle.left(135)
 turtle.forward(20)
 turtle.backward(20)
+#RUDDER
 turtle.right(135)
 turtle.left(85)
-turtle.forward(15)
-turtle.backward(15)
+turtle.pensize(3)
+turtle.color("Red")
+turtle.forward(35)
+turtle.backward(55)
+for i in range(1):
+    turtle.left(45)
+    turtle.backward(35)
+    turtle.forward(35)
+for i in range(1):
+    turtle.right(90)
+    turtle.backward(35)
+    turtle.forward(35)
+    turtle.left(45)
+
+
+turtle.forward(20)
+turtle.color("Black")
+turtle.pensize(1)
+
 turtle.right(85)
 turtle.left(45)
 turtle.forward(20)
